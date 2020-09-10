@@ -1,7 +1,5 @@
 package com.huiyun;
 
-import jdk.nashorn.internal.objects.annotations.Constructor;
-
 public class Vehicle {
     private String name;
 
