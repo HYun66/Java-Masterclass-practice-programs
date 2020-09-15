@@ -20,15 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369d1524-b218-4a20-9416-cf93ffa0d9ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InnerClasses.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huiyun/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huiyun/Gearbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/Abstraction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/out/production/Abstraction/com/huiyun/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/out/production/Abstraction/com/huiyun/Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/out/production/Abstraction/com/huiyun/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/out/production/Abstraction/com/huiyun/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/src/com/huiyun/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/src/com/huiyun/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/src/com/huiyun/CanFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/src/com/huiyun/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/src/com/huiyun/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstraction/src/com/huiyun/Penguin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +64,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
@@ -96,26 +107,33 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="325" y="43" key="#com.intellij.ide.util.MemberChooser" timestamp="1600089945189">
       <screen x="0" y="0" width="1024" height="640" />
     </state>
     <state x="325" y="43" key="#com.intellij.ide.util.MemberChooser/0.0.1024.640@0.0.1024.640" timestamp="1600089945189" />
-    <state width="982" height="160" key="GridCell.Tab.0.bottom" timestamp="1600089792887">
+    <state width="982" height="160" key="GridCell.Tab.0.bottom" timestamp="1600166336372">
       <screen x="0" y="0" width="1024" height="640" />
     </state>
-    <state width="982" height="160" key="GridCell.Tab.0.bottom/0.0.1024.640@0.0.1024.640" timestamp="1600089792887" />
-    <state width="982" height="160" key="GridCell.Tab.0.center" timestamp="1600089792867">
+    <state width="982" height="160" key="GridCell.Tab.0.bottom/0.0.1024.640@0.0.1024.640" timestamp="1600166336372" />
+    <state width="982" height="160" key="GridCell.Tab.0.center" timestamp="1600166336369">
       <screen x="0" y="0" width="1024" height="640" />
     </state>
-    <state width="982" height="160" key="GridCell.Tab.0.center/0.0.1024.640@0.0.1024.640" timestamp="1600089792867" />
-    <state width="982" height="160" key="GridCell.Tab.0.left" timestamp="1600089792838">
+    <state width="982" height="160" key="GridCell.Tab.0.center/0.0.1024.640@0.0.1024.640" timestamp="1600166336369" />
+    <state width="982" height="160" key="GridCell.Tab.0.left" timestamp="1600166336367">
       <screen x="0" y="0" width="1024" height="640" />
     </state>
-    <state width="982" height="160" key="GridCell.Tab.0.left/0.0.1024.640@0.0.1024.640" timestamp="1600089792838" />
-    <state width="982" height="160" key="GridCell.Tab.0.right" timestamp="1600089792886">
+    <state width="982" height="160" key="GridCell.Tab.0.left/0.0.1024.640@0.0.1024.640" timestamp="1600166336367" />
+    <state width="982" height="160" key="GridCell.Tab.0.right" timestamp="1600166336370">
       <screen x="0" y="0" width="1024" height="640" />
     </state>
-    <state width="982" height="160" key="GridCell.Tab.0.right/0.0.1024.640@0.0.1024.640" timestamp="1600089792886" />
+    <state width="982" height="160" key="GridCell.Tab.0.right/0.0.1024.640@0.0.1024.640" timestamp="1600166336370" />
+    <state x="0" y="0" key="new project wizard" timestamp="1600132786252">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1024.640@0.0.1024.640" timestamp="1600132786252" />
   </component>
 </project>
