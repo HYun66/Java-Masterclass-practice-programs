@@ -12,11 +12,11 @@ public class Main {
 
         t1.start();
         t2.start();
-
     }
 }
 
 class Countdown {
+    // local variable stored in thread stack
     private  int i;
     public void doCountdown() {
         String color;
@@ -34,9 +34,14 @@ class Countdown {
                 break;
         }
 
-        for(i = 10; i > 0; i--) {
-            System.out.println(color + Thread.currentThread().getName() + ": i = " + i);
+        synchronized (this) {
+            for(i = 10; i > 0; i--) {
+                System.out.println(color + Thread.currentThread().getName() + ": i = " + i);
+            }
         }
+
+
+        // thread can be suspended in any step of for-loop
     }
 
 }
