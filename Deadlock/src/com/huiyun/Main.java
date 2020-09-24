@@ -5,7 +5,8 @@ public class Main {
     public static Object lock2 = new Object();
 
     public static void main(String[] args) {
-	// write your code here
+	    new Thread1().start();
+	    new Thread2().start();
     }
 
     private static class Thread1 extends Thread {
@@ -29,7 +30,7 @@ public class Main {
 
     private static class Thread2 extends Thread {
         public void run () {
-            synchronized (lock2) {
+            synchronized (lock1) {
                 System.out.println("Thread 2: holding lock1");
                 try {
                     Thread.sleep(100);
@@ -37,12 +38,12 @@ public class Main {
 
                 }
                 System.out.println("Thread 2: waiting for lock2");
-                synchronized (lock1) {
+                synchronized (lock2) {
                     System.out.println("Thread 2: holding lock1 and lock2");
                 }
                 System.out.println("Thread 2: released lock2");
             }
-            System.out.println("Thread 2: released lock2. Exiting...");
+            System.out.println("Thread 2: released lock1. Exiting...");
         }
     }
 }
